@@ -1,38 +1,133 @@
-.App {
+
+#name h1{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 1000;
+  font-style: normal;
+  font-size: 60px;
+}
+
+#web_developer{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 650;
+  font-style: normal;
+  font-size: 40px;
+}
+
+#icons_github{
+  font-size: 50px;
+  margin: 20px;
+  display: inline;
+}
+#icons_linkedIn{
+  font-size: 50px;
+  margin: 20px;
+  display: inline;
+}
+
+.description{
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 25px;
+  width: 500px;
+}
+
+#photo img {
+  width: 400px;
+  height: 400px;
+}
+
+#personal {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align items at the start (top) */
+  gap: 100px;
+  margin-top: 100px;
+  text-align: center;
+
+}
+
+#project_header, #skill_header, #contactUs_header{
+  margin-top: 500px;
+  margin-bottom: 150px;
+  font-size: 50px;
+  font-weight: bold;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#project p{
+
+  font-size: 20px;
+  font-weight: bold;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#project{
+  margin-top: 50px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: flex-start; /* Align items at the start (top) */
+  gap: 100px;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+#project img{
+  border-radius: 50%;
+  margin-bottom: 50px;
+    
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#skill img{
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
 }
+
+#skill span{
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 50px;
+}
+
+#skill{
+  margin-top: 50px;
+  text-align: center;
+}
+
+#hr_line{
+    border: none; /* Remove the default border */
+    height: 5px;  /* Set the thickness of the line */
+    background-color: #000; /* Set the color of the line */
+    width: 35%;   /* Set the width of the line */
+    margin: 20px auto; 
+}
+
+form{
+  width: 500px;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto; 
+}
+
+#contactUs_header{
+  margin-bottom: 70px;
+}
+
+#contact_us{
+  margin-bottom: 50px;
+}
+
+#empty_space{
+  margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
