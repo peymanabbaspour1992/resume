@@ -1,8 +1,8 @@
 
-Online Resume
+Online Portfolio
 
 Overview
-This project is an interactive, web-based resume built using React.js. It showcases a comprehensive overview of my professional background, skills, work experience, and projects. The resume is designed to be responsive, ensuring an optimal user experience across all devices, including desktops, tablets, and mobile phones.
+This project is an interactive, web-based portfolio built using React.js. It showcases a comprehensive overview of my professional background, skills, work experience, and projects. The resume is designed to be responsive, ensuring an optimal user experience across all devices, including desktops, tablets, and mobile phones.
 
 You can view the live version of the resume here: https://peymanabbaspour1992.github.io/resume/
 
